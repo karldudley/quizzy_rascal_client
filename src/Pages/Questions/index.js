@@ -70,6 +70,7 @@ const Questions = () => {
             }
         }, 1000)
         return() => clearInterval(timer)
+        // eslint-disable-next-line
     },[seconds])
 	return (
         <div className="questionBody">
