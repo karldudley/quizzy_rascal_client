@@ -46,6 +46,7 @@ const Results = () => {
 
   useEffect(() => {
         sendResults()
+        // eslint-disable-next-line
   }, [])
 
   return (

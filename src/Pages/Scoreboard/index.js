@@ -9,6 +9,7 @@ import './style.css'
 
 const Scoreboard = () => {
     const [scores, setScores] = useState([])
+    // eslint-disable-next-line
     const [error, setError] = useState();
     socket.emit("clean")
     
