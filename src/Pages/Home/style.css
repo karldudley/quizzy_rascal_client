@@ -1,0 +1,89 @@
+.home-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.instructions{
+    margin-top: 3rem;
+}
+
+.square{
+    font-size: 3rem;
+    margin: 4rem 0rem;
+    padding: 6rem 5rem;
+    display: none;
+    text-align: center;
+    align-items: center;
+    width: 25rem;
+    border-radius: 30px;
+}
+
+.square.active{
+    display: flex;
+}
+
+.square:hover{
+    cursor: pointer;
+}
+
+.closeBtn:hover{
+    cursor: pointer;
+}
+
+.inputForm-container{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    right: 20%;
+    background-color: #5ED6BE;
+    z-index: 2;
+    height: 65%;
+    margin-bottom: 2rem;
+    padding: 0.5rem 3rem;
+    display: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 40px#5ED6BE;
+}
+
+.inputForm-container.active{
+    display: block;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form Input {
+    margin-top: 2rem;
+}
+
+
+.form-newGame{
+    background-color: black;
+    height: 100vh;
+    z-index: 1;
+}
+
+
+.createForm-container{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    right: 20%;
+    background-color: #DD92BF;
+    z-index: 2;
+    height: 65%;
+    margin-bottom: 1rem;
+    padding: 0.5rem 3rem;
+    display: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 40px#DD92BF;
+}
+
+
+.createForm-container.active{
+    display: block;
+}

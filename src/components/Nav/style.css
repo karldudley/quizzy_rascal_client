@@ -1,0 +1,21 @@
+.instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6A5AE0;
+}
+
+.instructions h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+.instructions ol {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+
