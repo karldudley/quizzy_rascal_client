@@ -1,7 +1,9 @@
 # Lap3 Project - Quiz App
 
+The server repo can be accessed [here](https://github.com/karldudley/quizzy-rascal-server)
+
 ### Installation & Usage 
-- Client: https://quizzy-rascal.netlify.app
+- Client: https://quizzy-rascals.netlify.app
 - Server: https://quizzy-rascal-server.herokuapp.com/
 - or fork and clone the repo, then `npm run start` to start
 
